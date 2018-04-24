@@ -19,7 +19,7 @@ def slope(b):
     return a
 
 def exampletrainingloop(num):  #essentially this changes our value of b to what we want it to be (4) by removing a portion of the derivive(eqn of slope) and eventually since its a parabola, b --> 4 ( the tp of the parabola.)
-    #example of neural network training with no inputs. 
+    #example of neural network training with no inputs.
     b =100
     for i in range(num):
         b = b-.1*slope(b)
